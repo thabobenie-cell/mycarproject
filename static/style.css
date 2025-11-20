@@ -1,0 +1,58 @@
+/* Full-page pastel background */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8e8ff;  /* pastel purple */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Main centered card */
+.container {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    width: 380px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* Form layout */
+.form-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box label {
+    text-align: left;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+/* Inputs and selects */
+.form-box input,
+.form-box select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+/* Button styling */
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #a56eff; /* soft pastel purple */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8e4dff;
+}
